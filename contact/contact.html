@@ -3,13 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Brooklyn Homes | Homepage</title>
+    <!-- <link rel="icon" href=""/> -->
+    <link rel="stylesheet" href="../style.css"/>
+    <script src="script.js"></script>
 </head>
 <body>
-    <!-- Dallimi prej about us, textfieldat -->
-    <!-- Forma me minimumin 5 inpute te ndryshme -->
-    <!-- Infot per kompanine -->
-    <!-- Our team* -->
+    <!-- Header-i -->
+    <header>
+        <!-- Navbar-i me Logo -->
+        <div id="top-header">
+            <!-- Logo -->
+            <div id="logo">
+                <img src="../assets/images/logo-navbar.png" />
+            </div>
+            <!-- Navbar Menu -->
+            <nav>
+                <div id="menu">
+                    <ul>
+                        <li class="active"><a href="../index.html">Home</a></li>
+                        <li><a href="about-us/aboutus.html">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Fotoja statike ne header -->
+    <div class="header-image-menu small">
+        <div id="header-title" style="margin-bottom: 20px;">
+            <h1>We are <span>waiting you</span></h1>
+         </div>
+    </div>
+    <!-- Forma -->
+    <div class="contact-content">
+        <div class="box1">
+            <h3>CONTACT</h3>
+        </div>
+        <div class="box2">
+            <h4>COMPANY INFORMATION</h4>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <ul>
+                <li>1399 Beverley Rd, Brooklyn, NY 11218</li>
+                <li>547-589-663-BKLYN</li>
+                <li>info@bklyn-construction.com</li>
+            </ul>
+        </div>
+        <div class="box3">
+            <h4>SEND US A MESSAGE</h4>
+            <form id="submitForm">
+                <div>
+                    <label for="selectbasic">Email type</label>
+                    <select id="selectbasic" name="selectbasic">
+                        <option value="1">Review</option>
+                        <option value="2">Suggestion</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="textinput">Name</label>  
+                    <input id="textinput" name="textinput" type="text" placeholder="Your name">
+                </div>
+                <div>
+                    <label>Gender</label>
+                    <div>
+                        <label>
+                            <input type="radio" name="radios" value="male" checked="checked">
+                            Female
+                        </label>
+                        <label>
+                            <input type="radio" name="radios" value="female">
+                            Male
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <label for="checkboxes">Page review</label>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="checkboxes" value="1">
+                            1
+                        </label>
+                        <label>
+                            <input type="checkbox" name="checkboxes" value="2">
+                            2
+                        </label>
+                        <label>
+                            <input type="checkbox" name="checkboxes" value="3">
+                            3
+                        </label>
+                        <label>
+                            <input type="checkbox" name="checkboxes" value="4">
+                            4
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <label for="textarea">Comment</label>
+                    <textarea id="textarea" name="textarea">default text</textarea>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    
+        <!-- Linking the external JavaScript file -->
+        <script src="script.js"></script>
+    </div>
+    <!-- Our latest projects, 3 cards rresht hoizontal -->
+    <!-- Our advantages, 3 cards rresht -->
     <!-- Kontakti -->
+    <!-- Footeri -->
 </body>
 </html>
